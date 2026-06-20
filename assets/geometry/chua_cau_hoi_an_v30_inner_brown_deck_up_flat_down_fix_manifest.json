@@ -1,0 +1,738 @@
+{
+  "version": "v30_inner_brown_deck_up_flat_down_fix",
+  "scene_name": "Chua_Cau_Hoi_An_Lai_Vien_Kieu",
+  "source_glb_file": "chua_cau_hoi_an_textured_fixed_v30_inner_brown_deck_up_flat_down_fix.glb",
+  "source_glb_sha256": "7045b66aa3e1fc7fa9e22f6bd6e8beda63c31a2c2f22aa8baedd12eb56b91c5f",
+  "geometry_npz": "assets/geometry/chua_cau_hoi_an_v30_inner_brown_deck_up_flat_down_fix_geometry.npz",
+  "texture_dir": "assets/textures/chua_cau_hoi_an",
+  "vertex_count": 156736,
+  "material_count": 30,
+  "primitive_count": 25,
+  "used_material_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    27,
+    29
+  ],
+  "primitive_index_count": {
+    "indices_00": 36,
+    "indices_01": 468,
+    "indices_02": 624,
+    "indices_03": 6,
+    "indices_04": 18,
+    "indices_05": 3216,
+    "indices_06": 432,
+    "indices_07": 26472,
+    "indices_08": 19338,
+    "indices_09": 2613,
+    "indices_10": 6522,
+    "indices_12": 840,
+    "indices_13": 4458,
+    "indices_14": 15516,
+    "indices_16": 4992,
+    "indices_17": 14250,
+    "indices_18": 18762,
+    "indices_19": 14370,
+    "indices_20": 18762,
+    "indices_21": 13896,
+    "indices_22": 12564,
+    "indices_23": 5100,
+    "indices_24": 1590,
+    "indices_27": 3840,
+    "indices_29": 960
+  },
+  "primitive_component_types": {
+    "indices_00": 5123,
+    "indices_01": 5123,
+    "indices_02": 5125,
+    "indices_03": 5123,
+    "indices_04": 5123,
+    "indices_05": 5125,
+    "indices_06": 5125,
+    "indices_07": 5125,
+    "indices_08": 5125,
+    "indices_09": 5125,
+    "indices_10": 5125,
+    "indices_12": 5125,
+    "indices_13": 5125,
+    "indices_14": 5125,
+    "indices_16": 5123,
+    "indices_17": 5125,
+    "indices_18": 5125,
+    "indices_19": 5125,
+    "indices_20": 5125,
+    "indices_21": 5125,
+    "indices_22": 5125,
+    "indices_23": 5125,
+    "indices_24": 5123,
+    "indices_27": 5125,
+    "indices_29": 5125
+  },
+  "position_bounds_source": {
+    "min": [
+      -8.050000190734863,
+      -0.5950000286102295,
+      -4.697999954223633
+    ],
+    "max": [
+      8.050000190734863,
+      5.71999979019165,
+      5.355999946594238
+    ]
+  },
+  "bound_value_map": [
+    {
+      "packed_float": -8.050000190734863,
+      "source_float": -8.049999999999999
+    },
+    {
+      "packed_float": -0.5950000286102295,
+      "source_float": -0.595
+    },
+    {
+      "packed_float": -4.697999954223633,
+      "source_float": -4.6979999999999995
+    },
+    {
+      "packed_float": 8.050000190734863,
+      "source_float": 8.049999999999999
+    },
+    {
+      "packed_float": 5.71999979019165,
+      "source_float": 5.720000000000001
+    },
+    {
+      "packed_float": 5.355999946594238,
+      "source_float": 5.356
+    }
+  ],
+  "image_sha256": {
+    "weathered_stone_basecolor.png": "3bfae18bbd371c49530c2ae8185eaa1357ec7e41ba745cb99284687d972086b1",
+    "weathered_stone_roughness.png": "afbdaa12b3d3077e40a196e6d3125b9e9dc3938daf5bc087c56c89340177c79c",
+    "weathered_stone_normal.png": "4f0ecee01436c3f948a023e54daf313959f698f3cdeee6c84f92dfee648e7212",
+    "warm_paving_brick_basecolor.png": "4944b7a872d19f3c5d56363ae5fbaa02274501b22b0badb5b36dfa77e9909a90",
+    "warm_paving_brick_roughness.png": "3c103299179b84205d3ba3f6b8e5517843a69b4fb3a2eecd0e8103ed0019e7b8",
+    "warm_paving_brick_normal.png": "1a9cb889c20644748307997330856b137417f59913ab9be4f60f39347b1d7bae",
+    "canal_water_basecolor.png": "e6f725232c95861026c31cfca4e9d464e1df9d85012c92fca11bc4ac78190aa6",
+    "canal_water_roughness.png": "a69e757b1b0386bbbc5679809d639110b3d099ed56caf771390d8a1c872076b4",
+    "canal_water_normal.png": "25290c2c280aee82eb2ba0dcc33fce21eddeaf711d306d261f76537b43b74cb3",
+    "damp_stain_basecolor.png": "709d7aebfb26b71c3fb38c41299816ea7cbfca326f3fb23be2a875ab7cc0d897",
+    "damp_stain_roughness.png": "0e0d8fb81cffca5c2f372fb14d6cb1aee0bb23b0097c2bae0b70cf188104f04e",
+    "damp_stain_normal.png": "3b68fd6d35db1674ee71bf22b2245a187cd543f529102297a60f7115a62903ad",
+    "old_wood_basecolor.png": "2e2181dd3d39de2e62692af6d83c67a81c270b85136a7b84ab82c4bda93c8c21",
+    "old_wood_roughness.png": "cbd17adbbe1430eb8575e2f6ca2884ce9e58a763ab52c9653267468dfabfbc95",
+    "old_wood_normal.png": "39860a59d6933aa0f2d7022bf6a767ee1ee5bba938a5bfa2451f7538aaf98c08",
+    "aged_red_lacquer_basecolor.png": "a3361bc78f874ca83b2e01759e58519d758de48b06275df419f7a83d7eae6f58",
+    "aged_red_lacquer_roughness.png": "591e549c74ce36b4d92b418baa1f3b94c49958e75844c6977933273e14793505",
+    "aged_red_lacquer_normal.png": "250cccdb8699dd8e60f6611ef750706836a0abd0dc7b7e8dc41afe2393b2925c",
+    "aged_gold_leaf_basecolor.png": "35eb84aef5104ed1ca240db07f85afefc9177847e7eee9e87ada356add18076e",
+    "aged_gold_leaf_roughness.png": "4b4462dc8439e32c42949116f5903087e0bd13e38a6c6d0cba8a65f3e22cff88",
+    "aged_gold_leaf_normal.png": "60c5c452de75f114aad667946d3e6f8ef1161a953aca42d156b6006cd94b1154",
+    "old_roof_tile_basecolor.png": "a6d1f1cbc7465d428cbde4d0e7fce0b1bf4bcb5da92de826035db66affb1b750",
+    "old_roof_tile_roughness.png": "e93c75eade1e96611ed3243b67ac1f8566de3c3eb0415009cfc928fb880750bc",
+    "old_roof_tile_normal.png": "8d9f2a53ece645d4d59c2f37ef1c71cd9f441ccabd38df18dc088767a7a0d5ca",
+    "blue_white_ceramic_basecolor.png": "2679cc29edad06fad0ee6aee779246bfeabb3cb3d690846b1175c6c9e9740d64",
+    "blue_white_ceramic_roughness.png": "4ec6414a33b1a140341ffbdae679051b110708876f31920c3e25c3bdc4a6aff1",
+    "blue_white_ceramic_normal.png": "3061f348159e23f42d19d6f9245a5d6cf587d886dc163b39203eb5a26a5bca7b",
+    "soft_moss_basecolor.png": "2954c8ade3bc935cd2149e6fc08739f29135f68f65f1e19350529e5bb3887a7a",
+    "soft_moss_roughness.png": "9eab7232a98ffbc983b9809c34de8697bb4e44c652061866c9c3bfcd0e1b8612",
+    "soft_moss_normal.png": "f324b66d439b95520617ec33c13f17751ceb743e22febe9efcd4c85fcb725e1b",
+    "hoi_an_yellow_wall_basecolor.png": "c073c4b7dbf709979fd1b2d6928c2012cee326e5cc5158e10ff7fd859f56b745",
+    "hoi_an_yellow_wall_roughness.png": "96e9e4ad7dd7c2e9a0995f36618d2fb34cfc93d97c4d13e2e55cb6c5c4247bbc",
+    "hoi_an_yellow_wall_normal.png": "da666c7e06f1192a4408674bb6e85bbce556d7c5f908ed16d12e19d8d0288b4e",
+    "village_leaf_basecolor.png": "503f0398e647bb64cb2578bdbadcda10e6a82b97af48d11789cf149f4aedb7c4",
+    "village_leaf_roughness.png": "1ebdbc46d191ffae15b28e9f7c23f0e371c6410cf3bf4a9dd60bcb80095facf5",
+    "village_leaf_normal.png": "43eef1431107d571b53fbe5f773b53ce898e306bf2a3b8594bc5c17a3e07d472",
+    "lantern_silk_basecolor.png": "69c487b8c92db9779a63c5e11138f42453aeb88bae963c2e31bde6cd38a4205f",
+    "lantern_silk_roughness.png": "fa3249340854c16704cc040c39f88d68d140987d405cb94dcbfa5a311fde0175",
+    "lantern_silk_normal.png": "6a6a8a73671f038d5012eacc1554a8814ad2b44cc08e7f42f6b752854bcc0882"
+  },
+  "materials": [
+    {
+      "name": "matte warm stone display base",
+      "color": [
+        0.48,
+        0.44,
+        0.38,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.95,
+      "double_sided": true,
+      "textures": {
+        "base_color": "weathered_stone_basecolor.png",
+        "roughness": "weathered_stone_roughness.png",
+        "normal": "weathered_stone_normal.png"
+      },
+      "normal_scale": 0.3
+    },
+    {
+      "name": "old town dusty earth",
+      "color": [
+        0.54,
+        0.43,
+        0.32,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "warm_paving_brick_basecolor.png",
+        "roughness": "warm_paving_brick_roughness.png",
+        "normal": "warm_paving_brick_normal.png"
+      },
+      "normal_scale": 0.25
+    },
+    {
+      "name": "warm Hoi An street paving",
+      "color": [
+        0.74,
+        0.57,
+        0.43,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.94,
+      "double_sided": true,
+      "textures": {
+        "base_color": "warm_paving_brick_basecolor.png",
+        "roughness": "warm_paving_brick_roughness.png",
+        "normal": "warm_paving_brick_normal.png"
+      },
+      "normal_scale": 0.48
+    },
+    {
+      "name": "shallow green canal water",
+      "color": [
+        0.05,
+        0.28,
+        0.3,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.22,
+      "double_sided": true,
+      "textures": {
+        "base_color": "canal_water_basecolor.png",
+        "roughness": "canal_water_roughness.png",
+        "normal": "canal_water_normal.png"
+      },
+      "normal_scale": 0.2
+    },
+    {
+      "name": "opaque canal water vertical edge",
+      "color": [
+        0.05,
+        0.28,
+        0.3,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.24,
+      "double_sided": true,
+      "textures": {
+        "base_color": "canal_water_basecolor.png",
+        "roughness": "canal_water_roughness.png",
+        "normal": "canal_water_normal.png"
+      },
+      "normal_scale": 0.18
+    },
+    {
+      "name": "weathered grey stone piers",
+      "color": [
+        0.86,
+        0.84,
+        0.76,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.98,
+      "double_sided": true,
+      "textures": {
+        "base_color": "weathered_stone_basecolor.png",
+        "roughness": "weathered_stone_roughness.png",
+        "normal": "weathered_stone_normal.png"
+      },
+      "normal_scale": 0.46
+    },
+    {
+      "name": "dark shadow inside stone arch",
+      "color": [
+        0.12,
+        0.13,
+        0.12,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "double_sided": true,
+      "textures": {
+        "base_color": "damp_stain_basecolor.png",
+        "roughness": "damp_stain_roughness.png",
+        "normal": "damp_stain_normal.png"
+      },
+      "normal_scale": 0.25
+    },
+    {
+      "name": "worn light stone trim",
+      "color": [
+        0.96,
+        0.94,
+        0.86,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.97,
+      "double_sided": true,
+      "textures": {
+        "base_color": "weathered_stone_basecolor.png",
+        "roughness": "weathered_stone_roughness.png",
+        "normal": "weathered_stone_normal.png"
+      },
+      "normal_scale": 0.34
+    },
+    {
+      "name": "old dark bridge wood",
+      "color": [
+        0.33,
+        0.2,
+        0.13,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.9,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_wood_basecolor.png",
+        "roughness": "old_wood_roughness.png",
+        "normal": "old_wood_normal.png"
+      },
+      "normal_scale": 0.72
+    },
+    {
+      "name": "aged brown structural wood",
+      "color": [
+        0.55,
+        0.34,
+        0.2,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.86,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_wood_basecolor.png",
+        "roughness": "old_wood_roughness.png",
+        "normal": "old_wood_normal.png"
+      },
+      "normal_scale": 0.6
+    },
+    {
+      "name": "worn golden brown wood edge",
+      "color": [
+        0.78,
+        0.51,
+        0.3,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.84,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_wood_basecolor.png",
+        "roughness": "old_wood_roughness.png",
+        "normal": "old_wood_normal.png"
+      },
+      "normal_scale": 0.44
+    },
+    {
+      "name": "deep covered bridge interior",
+      "color": [
+        0.025,
+        0.019,
+        0.014,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "double_sided": true,
+      "textures": {}
+    },
+    {
+      "name": "aged red lacquer gate and panels",
+      "color": [
+        0.7,
+        0.14,
+        0.1,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.78,
+      "double_sided": true,
+      "textures": {
+        "base_color": "aged_red_lacquer_basecolor.png",
+        "roughness": "aged_red_lacquer_roughness.png",
+        "normal": "aged_red_lacquer_normal.png"
+      },
+      "normal_scale": 0.42
+    },
+    {
+      "name": "dark oxidized red lacquer",
+      "color": [
+        0.37,
+        0.06,
+        0.04,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.86,
+      "double_sided": true,
+      "textures": {
+        "base_color": "aged_red_lacquer_basecolor.png",
+        "roughness": "aged_red_lacquer_roughness.png",
+        "normal": "aged_red_lacquer_normal.png"
+      },
+      "normal_scale": 0.5
+    },
+    {
+      "name": "muted gold leaf lettering",
+      "color": [
+        1.0,
+        0.72,
+        0.2,
+        1.0
+      ],
+      "metallic": 0.35,
+      "roughness": 0.38,
+      "double_sided": true,
+      "textures": {
+        "base_color": "aged_gold_leaf_basecolor.png",
+        "roughness": "aged_gold_leaf_roughness.png",
+        "normal": "aged_gold_leaf_normal.png"
+      },
+      "normal_scale": 0.18
+    },
+    {
+      "name": "blackened doorway shadow",
+      "color": [
+        0.015,
+        0.011,
+        0.008,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 1.0,
+      "double_sided": true,
+      "textures": {}
+    },
+    {
+      "name": "old yin-yang roof tile base",
+      "color": [
+        0.93,
+        0.68,
+        0.45,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.94,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.82
+    },
+    {
+      "name": "individual muted roof tile 1",
+      "color": [
+        0.96,
+        0.78,
+        0.58,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.92
+    },
+    {
+      "name": "individual muted roof tile 2",
+      "color": [
+        0.84,
+        0.42,
+        0.24,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.92
+    },
+    {
+      "name": "individual muted roof tile 3",
+      "color": [
+        0.98,
+        0.88,
+        0.72,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.92
+    },
+    {
+      "name": "individual muted roof tile 4",
+      "color": [
+        0.76,
+        0.34,
+        0.2,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.92
+    },
+    {
+      "name": "individual muted roof tile 5",
+      "color": [
+        0.9,
+        0.6,
+        0.38,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.96,
+      "double_sided": true,
+      "textures": {
+        "base_color": "old_roof_tile_basecolor.png",
+        "roughness": "old_roof_tile_roughness.png",
+        "normal": "old_roof_tile_normal.png"
+      },
+      "normal_scale": 0.92
+    },
+    {
+      "name": "blue white ceramic roof plates",
+      "color": [
+        0.92,
+        0.92,
+        0.86,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.42,
+      "double_sided": true,
+      "textures": {
+        "base_color": "blue_white_ceramic_basecolor.png",
+        "roughness": "blue_white_ceramic_roughness.png",
+        "normal": "blue_white_ceramic_normal.png"
+      },
+      "normal_scale": 0.25
+    },
+    {
+      "name": "cobalt blue ceramic accents",
+      "color": [
+        0.1,
+        0.33,
+        0.66,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.55,
+      "double_sided": true,
+      "textures": {
+        "base_color": "blue_white_ceramic_basecolor.png",
+        "roughness": "blue_white_ceramic_roughness.png",
+        "normal": "blue_white_ceramic_normal.png"
+      },
+      "normal_scale": 0.18
+    },
+    {
+      "name": "soft moss on old stone",
+      "color": [
+        0.4,
+        0.56,
+        0.28,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.98,
+      "double_sided": true,
+      "textures": {
+        "base_color": "soft_moss_basecolor.png",
+        "roughness": "soft_moss_roughness.png",
+        "normal": "soft_moss_normal.png"
+      },
+      "normal_scale": 0.46
+    },
+    {
+      "name": "Hoi An yellow plaster wall",
+      "color": [
+        0.86,
+        0.63,
+        0.28,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.92,
+      "double_sided": true,
+      "textures": {
+        "base_color": "hoi_an_yellow_wall_basecolor.png",
+        "roughness": "hoi_an_yellow_wall_roughness.png",
+        "normal": "hoi_an_yellow_wall_normal.png"
+      },
+      "normal_scale": 0.3
+    },
+    {
+      "name": "old town green foliage",
+      "color": [
+        0.33,
+        0.58,
+        0.24,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.94,
+      "double_sided": true,
+      "textures": {
+        "base_color": "village_leaf_basecolor.png",
+        "roughness": "village_leaf_roughness.png",
+        "normal": "village_leaf_normal.png"
+      },
+      "normal_scale": 0.36
+    },
+    {
+      "name": "warm red silk lantern",
+      "color": [
+        0.88,
+        0.1,
+        0.06,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.58,
+      "double_sided": true,
+      "textures": {
+        "base_color": "lantern_silk_basecolor.png",
+        "roughness": "lantern_silk_roughness.png",
+        "normal": "lantern_silk_normal.png"
+      },
+      "normal_scale": 0.18
+    },
+    {
+      "name": "warm yellow silk lantern",
+      "color": [
+        1.0,
+        0.67,
+        0.22,
+        1.0
+      ],
+      "metallic": 0.0,
+      "roughness": 0.55,
+      "double_sided": true,
+      "textures": {
+        "base_color": "lantern_silk_basecolor.png",
+        "roughness": "lantern_silk_roughness.png",
+        "normal": "lantern_silk_normal.png"
+      },
+      "normal_scale": 0.16
+    },
+    {
+      "name": "soft lantern glow",
+      "color": [
+        1.0,
+        0.82,
+        0.42,
+        0.72
+      ],
+      "metallic": 0.0,
+      "roughness": 0.35,
+      "double_sided": true,
+      "textures": {},
+      "alpha_mode": "BLEND"
+    }
+  ],
+  "generated_utc": "2026-06-08T16:14:41Z",
+  "patch_summary": [
+    "Kept the approved v28 model as the base.",
+    "Removed the repeated thin dark-brown horizontal bars visible through both side doors.",
+    "Reprofiled the inner brown material-10 strip to an up-flat-down shape, matching the outer red reference strip.",
+    "Kept all other materials, textures, roof, walls, railings, stone arches, water and decorative details unchanged.",
+    "V30: Reprofiled the visible inner dark-brown deck/floor (material 8) from W/up-down-up-down to up-flat-down with a flat center plateau, matching the approved outer reference shape."
+  ],
+  "validation": {
+    "vertices": 156736,
+    "materials": 30,
+    "textures_png": 39,
+    "side_door_bar_triangles_removed": 192,
+    "material_8_indices_before": 19914,
+    "material_8_indices_after": 19338,
+    "inner_brown_strip_vertices_reprofiled": 3840,
+    "inner_brown_strip_x_groups_shifted": 320,
+    "generated_glb_sha256": "7045b66aa3e1fc7fa9e22f6bd6e8beda63c31a2c2f22aa8baedd12eb56b91c5f",
+    "generated_glb_size_bytes": 16234984
+  },
+  "source_glb_size_bytes": 16234984,
+  "v30_changes": {
+    "inner_brown_deck_material": 8,
+    "inner_brown_deck_triangles_reprofiled": 300,
+    "inner_brown_deck_vertices_reprofiled": 604,
+    "inner_brown_deck_x_columns_shifted": 72,
+    "profile_before": "W / up-down-up-down center notch",
+    "profile_after": "three-segment up-flat-down with flat center plateau",
+    "plateau_half_width": 1.75,
+    "edge_center_y": 1.1738587617874146,
+    "plateau_center_y": 1.683198094367981,
+    "center_y_before": 1.599123477935791,
+    "center_y_after": 1.683198094367981,
+    "flat_center_y_min_after": 1.683198094367981,
+    "flat_center_y_max_after": 1.683198094367981,
+    "max_column_delta": 0.08407461643218994,
+    "kept_from_v29": "Side-door brown-bar cleanup and material-10 golden-brown trim profile fix are kept unchanged.",
+    "note": "Only the visible inner dark-brown deck/floor block inside the front railing was reprofiled; all other v29 geometry/material/texture data is preserved."
+  }
+}

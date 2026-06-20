@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hoi-an-chua-cau-glb"
+version = "0.1.0"
+description = "Pure Python procedural GLB generator for Chua Cau Hoi An / Lai Vien Kieu"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["Pillow>=10.0.0", "numpy>=1.24.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
