@@ -29,7 +29,7 @@ def ensure_textures() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate one heritage site GLB by registry key.")
-    parser.add_argument("site_key", help="Dạng key: 49-da-nang/chua-cau-hoi-an")
+    parser.add_argument("site_key", help="Dạng key: 43-da-nang/chua-cau-hoi-an")
     args = parser.parse_args()
 
     ensure_textures()
