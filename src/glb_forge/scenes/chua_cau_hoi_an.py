@@ -1,10 +1,10 @@
 from __future__ import annotations
 
-"""Scene source phục dựng cho bản v42 back small roof on red.
+"""Scene source phục dựng cho bản v48 remove front mat13.
 
 File này giữ pipeline/barem Python của ZIP mẫu: SceneMesh -> scene_writer -> GLB.
 Geometry/material được tách thành NPZ + manifest để chạy lại bằng `python main.py`
-và xuất đúng bản GLB nâng cấp v42: giữ nguyên v41, chỉ di chuyển mái nhỏ phía sau lên vùng màu đỏ.
+và xuất đúng bản GLB nâng cấp v48: base=v47, xoá mat13 thanh nâu cong mặt trước.
 """
 
 import json
@@ -18,8 +18,8 @@ from glb_forge.scene import SceneMesh
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
 SLUG = "chua_cau_hoi_an"
 TEXTURE_DIR = PROJECT_ROOT / "assets" / "textures" / SLUG
-GEOMETRY_PATH = PROJECT_ROOT / "assets" / "geometry" / "chua_cau_hoi_an_v42_back_small_roof_on_red_geometry.npz"
-MANIFEST_PATH = PROJECT_ROOT / "assets" / "geometry" / "chua_cau_hoi_an_v42_back_small_roof_on_red_manifest.json"
+GEOMETRY_PATH = PROJECT_ROOT / "assets" / "geometry" / "chua_cau_hoi_an_v48_remove_front_mat13_geometry.npz"
+MANIFEST_PATH = PROJECT_ROOT / "assets" / "geometry" / "chua_cau_hoi_an_v48_remove_front_mat13_manifest.json"
 
 
 def _texture_path(filename: str | None) -> str | None:
@@ -30,7 +30,7 @@ def _texture_path(filename: str | None) -> str | None:
 
 def _load_manifest() -> dict[str, Any]:
     if not MANIFEST_PATH.exists():
-        raise FileNotFoundError(f"Không tìm thấy manifest v42: {MANIFEST_PATH}")
+        raise FileNotFoundError(f"Không tìm thấy manifest v48: {MANIFEST_PATH}")
     return json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
@@ -62,7 +62,7 @@ def _add_materials(scene: SceneMesh, manifest: dict[str, Any]) -> None:
 
 def _load_geometry(scene: SceneMesh, manifest: dict[str, Any]) -> None:
     if not GEOMETRY_PATH.exists():
-        raise FileNotFoundError(f"Không tìm thấy geometry v42: {GEOMETRY_PATH}")
+        raise FileNotFoundError(f"Không tìm thấy geometry v48: {GEOMETRY_PATH}")
 
     data = np.load(GEOMETRY_PATH)
     positions = data["positions"].astype(np.float32, copy=False)
@@ -70,9 +70,9 @@ def _load_geometry(scene: SceneMesh, manifest: dict[str, Any]) -> None:
     texcoords = data["texcoords"].astype(np.float32, copy=False)
 
     if not (len(positions) == len(normals) == len(texcoords)):
-        raise ValueError("Geometry v42 không hợp lệ: positions/normals/texcoords không cùng số lượng")
+        raise ValueError("Geometry v48 không hợp lệ: positions/normals/texcoords không cùng số lượng")
     if len(scene.materials) != int(manifest.get("material_count", len(scene.materials))):
-        raise ValueError("Sai số material so với manifest v42")
+        raise ValueError("Sai số material so với manifest v48")
 
     restore_map = _source_float_restorer(manifest)
     scene.positions = [tuple(_restore_source_float(v, restore_map) for v in row) for row in positions]

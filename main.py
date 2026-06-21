@@ -1,9 +1,9 @@
 from __future__ import annotations
 
-"""Entry point chính cho bản v42 back small roof on red.
+"""Entry point chính cho bản v48 remove front mat13.
 
 Chạy file này để dựng lại mô hình Chùa Cầu Hội An từ source theo barem ZIP mẫu,
-rồi xuất GLB textured tại thư mục output/. Bản này giữ nguyên v41 và chỉ di chuyển mái nhỏ phía sau lên vùng màu đỏ theo yêu cầu.
+rồi xuất GLB textured tại thư mục output/. Bản này base=v46, áp đường cong lên-ngang-xuống cho mái ngói (mat16-23).
 """
 
 import shutil
@@ -20,7 +20,7 @@ from glb_forge.scene_writer import write_scene_glb
 from glb_forge.scenes.chua_cau_hoi_an import create_chua_cau_hoi_an
 
 SLUG = "chua_cau_hoi_an"
-OUTPUT_NAME = "chua_cau_hoi_an_textured_fixed_v42_back_small_roof_on_red.glb"
+OUTPUT_NAME = "chua_cau_hoi_an_textured_fixed_v48_remove_front_mat13.glb"
 COMPAT_OUTPUT_NAME = f"{SLUG}_textured.glb"
 TEXTURE_DIR = PROJECT_ROOT / "assets" / "textures" / SLUG
 ROOT_OUTPUT = PROJECT_ROOT / "output" / OUTPUT_NAME

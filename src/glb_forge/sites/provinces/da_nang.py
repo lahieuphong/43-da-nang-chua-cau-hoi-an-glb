@@ -10,7 +10,7 @@ DA_NANG_SITES = [
         site_id="chua-cau-hoi-an",
         name="Chùa Cầu Hội An / Cầu Nhật Bản / Lai Viễn Kiều",
         province=DA_NANG,
-        output_name="chua_cau_hoi_an_textured_fixed_v42_back_small_roof_on_red",
+        output_name="chua_cau_hoi_an_textured_fixed_v48_remove_front_mat13",
         create_scene=create_chua_cau_hoi_an,
     )
 ]
